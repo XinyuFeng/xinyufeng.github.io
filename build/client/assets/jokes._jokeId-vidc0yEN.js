@@ -1,1 +1,0 @@
-import{j as e}from"./jsx-runtime-56DGgGmo.js";import{n as r,o as s}from"./components-DDd4d-UM.js";function a(){const o=r();return e.jsxs("div",{children:[e.jsx("p",{children:"Here's your hilarious joke:"}),e.jsx("p",{children:o.joke.content}),e.jsxs(s,{to:".",children:['"',o.joke.name,'" Permalink']})]})}export{a as default};
