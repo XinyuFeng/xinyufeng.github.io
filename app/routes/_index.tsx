@@ -1,9 +1,10 @@
 import { LinksFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
-import stylesUrl from "~/styles/index.css";
+//import stylesUrl from "~/styles/index.css";
 
 export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: stylesUrl },
+  { rel: "stylesheet", href: "./app/styles/index.css" },
+  // { rel: "stylesheet", href: stylesUrl },
 ];
 export default function IndexRoute() {
   return (

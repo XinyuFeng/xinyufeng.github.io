@@ -1,10 +1,10 @@
 import { Outlet, Link, useLoaderData } from "@remix-run/react";
 import { LinksFunction, json } from "@remix-run/node";
-import stylesUrl from "~/styles/jokes.css";
+//import stylesUrl from "~/styles/jokes.css";
 import { db } from "~/utils/db.server";
 
 export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: stylesUrl },
+  { rel: "stylesheet", href: "./styles/jokes.css" },
 ];
 
 export const loader = async () => {
