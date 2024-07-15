@@ -1,0 +1,1 @@
+import{j as e}from"./jsx-runtime-56DGgGmo.js";const n=()=>[{title:"Xinyu Feng"},{name:"description",content:"Welcome to my page!"}];function i(){return e.jsx("div",{className:"container",children:e.jsx("h1",{children:"Beautiful Home"})})}export{i as default,n as meta};
