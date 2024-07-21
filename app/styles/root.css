@@ -7,12 +7,16 @@ body {
   background-size: cover;
   display: flex;
   justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  align-items: flex-start; /* Center vertically */
 }
-h1 {
+.header {
   min-width: 100%;
   text-align: center;
-  color: white;
+  font-family: monospace, monospace;
+  background: linear-gradient(to right, white, grey);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .container {
   align: center;

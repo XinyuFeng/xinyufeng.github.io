@@ -1,0 +1,22 @@
+.dropDownH1 {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  //align-items: top;
+  //align-items: flex-start; /* Align to the top */
+  font-size: 100px; /* Adjust as needed */
+  font-weight: bold; /* Optional: makes text bold */
+  font-family: monospace, monospace;
+  background: linear-gradient(to right, white, green);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  //text-align: center; /* Center text */
+  opacity: 0; /* Start as invisible */
+  transform: translateY(600px); /* Start slightly above */
+  transition: opacity 2s, transform 2s ease; /* Smooth transition */
+}
+
+.animate {
+  opacity: 1; /* Become visible */
+  //transform: translateY(0); /* Drop to the original position */
+}
