@@ -2,6 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 import { useEffect } from "react";
 import DropDownHeader from "~/components/DropdownHeader";
 import "~/styles/root.css";
+import sun from "~/assets/sun.svg";
 
 export const meta: MetaFunction = () => {
   return [
@@ -31,6 +32,7 @@ export default function Index() {
   }, []);
   return (
     <div className="container">
+      <img className="sun" src={sun} alt="" />
       <DropDownHeader />
       <div id="mapContainer"></div>
     </div>
