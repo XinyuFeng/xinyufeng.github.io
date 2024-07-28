@@ -1,6 +1,6 @@
 @keyframes dropdown {
   to {
-    transform: translateY(20vh);
+    transform: translateY(10vh);
   }
 }
 .dropDownH1 {
@@ -8,7 +8,7 @@
   justify-content: center; /* Center horizontally */
   //align-items: top;
   //align-items: flex-start; /* Align to the top */
-  font-size: 6vw; /* Adjust as needed */
+  font-size: min(6vw, 6vh); /* Adjust as needed */
   font-weight: bold; /* Optional: makes text bold */
   font-family: monospace, monospace;
   background: linear-gradient(to right, white, green);

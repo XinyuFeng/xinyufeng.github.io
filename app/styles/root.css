@@ -40,10 +40,10 @@ body {
 }
 .sun {
   align-self: center;
-  width: min-content;
+  width: min(30vw, 30vh);
   animation: rotate 2s linear infinite;
 }
 
 #mapContainer {
-  transform: translateY(50vh);
+  transform: translateY(20vh);
 }
